@@ -1,0 +1,14 @@
+Vũ Hoàng Minh - 20235980
+6.1 (images for question in report file)
+Questions:
+- What happens if users choose “Cancel”?
+- How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do”
+and “I don’t” (Suggestion: Use Javadocs or using Eclipse/Netbean IDE help).
+
+Answer:
+- If choose “Cancel”: it will output “No” because we print “Yes” if Option==JOptionPane.YES_OPTION else print “No” and if we choose “Cancel” Option != JOptionPane.YES_OPTION => output is "No".
+- To customize the options to users:
++  For "Yes" and "No," set optionType = YES_NO_OPTION.
+
++ For "I do" and "I don’t," use JOptionPane.showOptionDialog().
+
